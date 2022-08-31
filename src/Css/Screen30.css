@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.payment {
+    position: absolute;
+    left: 130px;
+    top: 42px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+.cardimg {
+    height: 72px;
+    width: 108px;
+    left: 142px;
+    top: 224px;
+    border-radius: 18px;
+}
+
+.dontcard {
+    position: absolute;
+    width: 232px;
+    height: 18px;
+    left: 76px;
+    top: 353px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.14px;
+    color: #010F07;
+}
+
+.itsee {
+    position: absolute;
+    width: 287px;
+    height: 35px;
+    left: 49px;
+    top: 422px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.addcredit {
+    position: absolute;
+    height: 38px;
+    width: 255px;
+    left: 66px;
+    top: 489px;
+    border-radius: 6px;
+    border: 0.8px solid #EEA734;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.back18 {
+    position: absolute;
+    left: 23px;
+    top: 47px;
+    cursor: pointer;
+}
+
+.addypm {
+    position: absolute;
+    width: 310px;
+    height: 32px;
+    left: 32px;
+    top: 112px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.14px;
+}
+
+.addypmtag {
+    position: absolute;
+    width: 261px;
+    height: 48px;
+    left: 57px;
+    top: 156px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.inp18 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 335px;
+    height: 54px;
+    left: 20px;
+    top: 238px;
+    background: #FBFBFB;
+    border: 1px solid rgba(134, 134, 134, 0.103229);
+    border-radius: 8px;
+}
+
+.in18 {
+    position: absolute;
+    left: 71px;
+    top: 14px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    color: #868686;
+    background: #FBFBFB;
+    opacity: 0.64;
+    outline: none;
+}
+
+.in18::placeholder {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.in181::placeholder {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.in182::placeholder {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.card {
+    position: absolute;
+    width: 34px;
+    height: 24px;
+    left: 40px;
+    top: 253px;
+    border-radius: 4px;
+}
+
+.inp181 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    left: 20px;
+    top: 308px;
+    background: #FBFBFB;
+    border: 1px solid rgba(134, 134, 134, 0.103229);
+    border-radius: 8px;
+}
+
+.in181 {
+    position: absolute;
+    left: 20px;
+    top: 14px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    color: #868686;
+    background: #FBFBFB;
+    opacity: 0.64;
+    outline: none;
+}
+
+.inp182 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 149px;
+    height: 54px;
+    left: 206px;
+    top: 308px;
+    background: #FBFBFB;
+    border: 1px solid rgba(134, 134, 134, 0.103229);
+    border-radius: 8px;
+}
+
+.in182 {
+    position: absolute;
+    left: 20px;
+    top: 14px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    color: #868686;
+    background: #FBFBFB;
+    opacity: 0.64;
+    outline: none;
+}
+
+
+.addcard {
+    position: absolute;
+    top: 670px;
+    left: 20px;
+    background: #EEA734;
+    border-radius: 8px;
+    width: 335PX;
+    height: 48PX;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.scan {
+    position: absolute;
+    left: 5.33%;
+    right: 5.33%;
+    top: 90.39%;
+    bottom: 3.69%;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border: 1px solid #010F07;
+    border-radius: 8px;
+}
+
+.scard {
+    position: absolute;
+    left: 44.93%;
+    top: 748px;
+    font-family: 'Yu Gothic UI';
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #010F07;
+    cursor: pointer;
+}
+
+.scanimg {
+    height: 22px;
+    width: 28px;
+    left: 136px;
+    top: 747px;
+    border-radius: 2px;
+    cursor: pointer;
+}

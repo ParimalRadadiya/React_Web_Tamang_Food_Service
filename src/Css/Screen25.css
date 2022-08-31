@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.mcd {
+    position: absolute;
+    left: 146px;
+    top: 40px;
+    font-family: 'Yu Gothic UI';
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+
+}
+
+.ract25 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 20px;
+    top: 112px;
+    opacity: 0.3;
+    border: 0.5px solid #868686;
+    border-radius: 4px;
+}
+
+.recton25 {
+    position: absolute;
+    width: 6px;
+    left: 28px;
+    top: 112px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F8B64C;
+}
+
+.csw25 {
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    left: 60px;
+    top: 112px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.315px;
+}
+
+.shtag25 {
+    position: absolute;
+    width: 205px;
+    height: 48px;
+    left: 60px;
+    top: 142px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+    mix-blend-mode: normal;
+    opacity: 0.64;
+}
+
+.audp25 {
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    left: 301px;
+    top: 114px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.6px;
+    color: #F8B64C;
+}
+
+.audh25 {
+    position: absolute;
+    width: 335px;
+    height: 1px;
+    left: 20px;
+    top: 210px;
+    opacity: 0.20;
+}
+
+.ract125 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 20px;
+    top: 231px;
+    opacity: 0.3;
+    border: 0.5px solid #868686;
+    border-radius: 4px;
+}
+
+.recton256 {
+    position: absolute;
+    width: 6px;
+    left: 28px;
+    top: 231px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F8B64C;
+}
+
+.csw125 {
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    left: 60px;
+    top: 231px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.315px;
+}
+
+.shtag125 {
+    position: absolute;
+    width: 205px;
+    height: 48px;
+    left: 60px;
+    top: 261px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+    mix-blend-mode: normal;
+    opacity: 0.64;
+}
+
+.audp125 {
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    left: 301px;
+    top: 233px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.6px;
+    color: #F8B64C;
+}
+
+.audh125 {
+    position: absolute;
+    width: 335px;
+    height: 1px;
+    left: 20px;
+    top: 329px;
+    opacity: 0.20;
+}
+
+.ract225 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 20px;
+    top: 350px;
+    opacity: 0.3;
+    border: 0.5px solid #868686;
+    border-radius: 4px;
+}
+
+.recton225 {
+    position: absolute;
+    width: 6px;
+    left: 28px;
+    top: 350px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F8B64C;
+}
+
+.csw225 {
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    left: 60px;
+    top: 350px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.315px;
+}
+
+.shtag225 {
+    position: absolute;
+    width: 205px;
+    height: 48px;
+    left: 60px;
+    top: 380px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+    mix-blend-mode: normal;
+    opacity: 0.64;
+}
+
+.audp225 {
+    position: absolute;
+    width: 54px;
+    height: 20px;
+    left: 301px;
+    top: 352px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.6px;
+    color: #F8B64C;
+}
+
+.audh225 {
+    position: absolute;
+    width: 335px;
+    height: 1px;
+    left: 20px;
+    top: 448px;
+    opacity: 0.20;
+}
+
+.sub25 {
+    position: absolute;
+    width: 101px;
+    height: 72px;
+    left: 20px;
+    top: 465px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: -0.28px;
+    color: #010F07;
+}
+
+.audtot25 {
+    position: absolute;
+    width: 93px;
+    height: 72px;
+    left: 262px;
+    top: 465px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: right;
+    letter-spacing: -0.28px;
+    color: #010F07;
+}
+
+.audto25 {
+    position: absolute;
+    width: 56px;
+    height: 20px;
+    left: 299px;
+    top: 541px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.6px;
+    color: #F8B64C;
+}
+
+.total25 {
+    position: absolute;
+    width: 101px;
+    height: 24px;
+    left: 20px;
+    top: 541px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    color: #010F07;
+}
+
+.check {
+    position: absolute;
+    top: 727px;
+    left: 23px;
+    background: #EEA734;
+    border-radius: 8px;
+    width: 335PX;
+    height: 48PX;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}

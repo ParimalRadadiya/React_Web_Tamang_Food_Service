@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    display: flex;
+}
+
+.screenbody15 {
+    position: fixed;
+    top: 820px;
+    height: 184px;
+    width: 401px;
+    background: #FFFFFF;
+}
+
+.back15 {
+    position: absolute;
+    left: 8.33%;
+    top: 47px;
+    cursor: pointer;
+    color: white;
+}
+
+.scroll15 {
+    overflow-y: scroll;
+    width: 400px;
+    height: 1554px;
+}
+
+.time15 {
+    position: absolute;
+    height: 17px;
+    left: 6%;
+    right: 0%;
+    top: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.28px;
+    color: white;
+}
+
+.img156 {
+    position: absolute;
+    left: 282px;
+    right: 5.07%;
+    width: 95px;
+    height: 37px;
+    top: -5px;
+}
+
+.bg {
+    height: 280px;
+    width: 375px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.glass15 {
+    position: absolute;
+    top: 47px;
+    left: 333px;
+    font-size: 20px;
+    color: white;
+}
+
+.share15 {
+    position: absolute;
+    top: 47px;
+    left: 285px;
+    font-size: 20px;
+    color: white;
+}
+
+.mayfie {
+    position: absolute;
+    width: 249px;
+    height: 18px;
+    left: 20px;
+    top: 304px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.14px;
+    color: #000000;
+}
+
+.dol15 {
+    position: absolute;
+    width: 17px;
+    height: 24px;
+    left: 20px;
+    top: 336px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+    list-style: none;
+}
+
+.ch15 {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 70px;
+    top: 336px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.am15 {
+    position: absolute;
+    width: 64px;
+    height: 24px;
+    left: 163px;
+    top: 336px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.de15 {
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 259px;
+    top: 336px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.for {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    left: 22px;
+    top: 368px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.24px;
+    color: #010F07;
+    opacity: 0.74;
+}
+
+.rt15 {
+    color: #EEA734;
+    position: absolute;
+    left: 44px;
+    top: 368px;
+    font-size: 12px;
+}
+
+.twohun {
+    position: absolute;
+    width: 64px;
+    height: 20px;
+    left: 68px;
+    top: 368px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #010F07;
+    opacity: 0.74;
+    cursor: pointer;
+}
+
+.dolcir {
+    height: 21px;
+    width: 16px;
+    left: 22px;
+    top: 411px;
+    border-radius: 53px;
+}
+
+.frd {
+    position: absolute;
+    width: 27px;
+    height: 24px;
+    left: 48px;
+    top: 411px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+.tim {
+    height: 21px;
+    width: 20px;
+    left: 114px;
+    top: 411px;
+    border-radius: 53px;
+}
+
+.twofive {
+    position: absolute;
+    width: 17px;
+    height: 24px;
+    left: 141px;
+    top: 411px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+
+.btn15 {
+    position: absolute;
+    top: 409px;
+    left: 229px;
+    position: absolute;
+    border-radius: 8px;
+    width: 113PX;
+    height: 38PX;
+    color: #EEA734;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    background: white;
+    border: 0.8px solid #EEA734;
+    border-radius: 6px;
+}
+
+.fei {
+    position: absolute;
+    width: 222px;
+    height: 14px;
+    left: 20px;
+    top: 477px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.444444px;
+    color: #010F07;
+}
+
+.fetimg {
+    height: 140px;
+    width: 140px;
+    left: 20px;
+    top: 508px;
+    border-radius: 12px;
+}
+
+.fetcook {
+    position: absolute;
+    height: 24px;
+    left: 20px;
+    top: 651px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    list-style: none;
+}
+
+.fetdol {
+    position: absolute;
+    left: 20px;
+    top: 673px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.245px;
+    opacity: 0.64;
+    list-style: none;
+}
+
+.fetchin {
+    position: absolute;
+    left: 18.14%;
+    top: 673px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.245px;
+    opacity: 0.64;
+}
+
+.fetimg1 {
+    height: 140px;
+    width: 140px;
+    left: 179px;
+    top: 508px;
+    border-radius: 12px;
+}
+
+.fetcook1 {
+    position: absolute;
+    height: 24px;
+    left: 179px;
+    top: 651px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    list-style: none;
+}
+
+.fetdol1 {
+    position: absolute;
+    left: 179px;
+    top: 673px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.245px;
+    opacity: 0.64;
+    list-style: none;
+}
+
+.fetchin1 {
+    position: absolute;
+    left: 59.14%;
+    top: 673px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.245px;
+    opacity: 0.64;
+}
+
+.lamb {
+    position: absolute;
+    /* width: 341px; */
+    height: 42px;
+    left: 14px;
+    top: 710px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.14px;
+    color: #010F07;
+    mix-blend-mode: normal;
+    opacity: 0.54;
+}
+
+.span {
+    position: absolute;
+    left: 219px;
+    width: 154px;
+}
+
+.seafo {
+    position: absolute;
+    /* width: 341px; */
+    height: 42px;
+    left: 123px;
+    top: 710px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.14px;
+    color: #010F07;
+    mix-blend-mode: normal;
+}
+
+.mopo {
+    position: absolute;
+    width: 222px;
+    height: 14px;
+    left: 20px;
+    top: 768px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.444444px;
+}
+
+.img315 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 824px;
+    left: 20px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.coos {
+    position: absolute;
+    left: 147px;
+    top: 826px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.315px;
+    color: #010F07;
+    cursor: pointer;
+    list-style: none;
+}
+
+.short {
+    position: absolute;
+    left: 147px;
+    top: 854px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+    mix-blend-mode: normal;
+    opacity: 0.64;
+    list-style: none;
+}
+
+.dol {
+    position: absolute;
+    width: 17px;
+    height: 24px;
+    left: 147px;
+    top: 912px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+    list-style: none;
+}
+
+.chn {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 195px;
+    top: 913px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.aud {
+    position: absolute;
+    left: 309px;
+    top: 915px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.6px;
+    color: #EEA734;
+    list-style: none;
+}
+
+.mhori {
+    position: absolute;
+    width: 339px;
+    height: 1px;
+    left: 22px;
+    top: 950px;
+    opacity: 0.3;
+}
+
+.img3151 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 968px;
+    left: 20px;
+    border-radius: 11px;
+}
+
+.coos1 {
+    position: absolute;
+    left: 147px;
+    top: 968px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.315px;
+    color: #010F07;
+    cursor: pointer;
+    list-style: none;
+}
+
+.short1 {
+    position: absolute;
+    left: 147px;
+    top: 1004px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+    mix-blend-mode: normal;
+    opacity: 0.64;
+    list-style: none;
+}
+
+.dol1 {
+    position: absolute;
+    width: 17px;
+    height: 24px;
+    left: 147px;
+    top: 1055px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+    list-style: none;
+}
+
+.chn1 {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 195px;
+    top: 1055px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.aud1 {
+    position: absolute;
+    left: 309px;
+    top: 1055px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.6px;
+    color: #EEA734;
+    list-style: none;
+}
+
+.mhori1 {
+    position: absolute;
+    width: 339px;
+    height: 1px;
+    left: 22px;
+    top: 1095px;
+    opacity: 0.3;
+}
+
+.img3152 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 1111px;
+    left: 20px;
+    border-radius: 11px;
+}
+
+.coos2 {
+    position: absolute;
+    left: 147px;
+    top: 1111px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.315px;
+    color: #010F07;
+    cursor: pointer;
+    list-style: none;
+}
+
+.short2 {
+    position: absolute;
+    left: 147px;
+    top: 1143px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+    mix-blend-mode: normal;
+    opacity: 0.64;
+    list-style: none;
+}
+
+.dol2 {
+    position: absolute;
+    width: 17px;
+    height: 24px;
+    left: 147px;
+    top: 1195px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+    list-style: none;
+}
+
+.chn2 {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 195px;
+    top: 1195px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.aud2 {
+    position: absolute;
+    left: 309px;
+    top: 1195px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.6px;
+    color: #EEA734;
+    list-style: none;
+}
+
+.seaf1 {
+    position: absolute;
+    left: 20px;
+    top: 1244px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.444444px;
+}
+
+.img3153 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 1291px;
+    left: 20px;
+    border-radius: 11px;
+}
+
+.coos3 {
+    position: absolute;
+    left: 147px;
+    top: 1291px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.315px;
+    color: #010F07;
+    cursor: pointer;
+    list-style: none;
+}
+
+.short3 {
+    position: absolute;
+    left: 147px;
+    top: 1325px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+    mix-blend-mode: normal;
+    opacity: 0.64;
+    list-style: none;
+}
+
+.dol3 {
+    position: absolute;
+    width: 17px;
+    height: 24px;
+    left: 147px;
+    top: 1375px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+    list-style: none;
+}
+
+.chn3 {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 195px;
+    top: 1375px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.aud3 {
+    position: absolute;
+    left: 309px;
+    top: 1375px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.6px;
+    color: #EEA734;
+    list-style: none;
+}
+
+.mhori3 {
+    position: absolute;
+    width: 339px;
+    height: 1px;
+    left: 22px;
+    top: 1417px;
+    opacity: 0.3;
+}
+
+.img3154 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 1434px;
+    left: 20px;
+    border-radius: 11px;
+}
+
+.coos4 {
+    position: absolute;
+    left: 147px;
+    top: 1434px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.315px;
+    color: #010F07;
+    cursor: pointer;
+    list-style: none;
+}
+
+.short4 {
+    position: absolute;
+    left: 147px;
+    top: 1467px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+    mix-blend-mode: normal;
+    opacity: 0.64;
+    list-style: none;
+}
+
+.dol4 {
+    position: absolute;
+    width: 17px;
+    height: 24px;
+    left: 147px;
+    top: 1518px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+    list-style: none;
+}
+
+.chn4 {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 195px;
+    top: 1518px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.aud4 {
+    position: absolute;
+    left: 309px;
+    top: 1518px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.6px;
+    color: #EEA734;
+    list-style: none;
+}

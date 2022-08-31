@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.glass22 {
+    position: absolute;
+    left: 22px;
+    top: 71px;
+    color: #868686;
+    font-size: 17px;
+}
+
+.in22 {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 55px;
+    top: 58px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.14px;
+    color: #010F07;
+    opacity: 0.54;
+    outline: none;
+}
+
+.cancel {
+    position: absolute;
+    width: 51px;
+    height: 12px;
+    left: 304px;
+    top: 75px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+.recsea {
+    position: absolute;
+    width: 141px;
+    height: 24px;
+    left: 20px;
+    top: 132px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #868686;
+}
+
+.clr22 {
+    position: absolute;
+    width: 59px;
+    height: 20px;
+    left: 295px;
+    top: 134px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #010F07;
+}
+
+.subway {
+    position: absolute;
+    left: 28px;
+    top: 180px;
+    font-size: 15px;
+}
+
+.suby {
+    position: absolute;
+    width: 53px;
+    height: 24px;
+    left: 56px;
+    top: 174px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+.burg {
+    position: absolute;
+    left: 28px;
+    top: 220px;
+    font-size: 15px;
+}
+
+.burge {
+    position: absolute;
+    width: 53px;
+    height: 24px;
+    left: 56px;
+    top: 214px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+    cursor: pointer;
+}
+
+.sand {
+    position: absolute;
+    left: 28px;
+    top: 260px;
+    font-size: 15px;
+}
+
+.sandw {
+    position: absolute;
+    width: 53px;
+    height: 24px;
+    left: 56px;
+    top: 254px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+.piz {
+    position: absolute;
+    left: 28px;
+    top: 299px;
+    font-size: 15px;
+}
+
+.pizz {
+    position: absolute;
+    width: 53px;
+    height: 24px;
+    left: 56px;
+    top: 293px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+.frw {
+    position: absolute;
+    left: 28px;
+    top: 340px;
+    font-size: 15px;
+}
+
+.frwm {
+    position: absolute;
+    width: 165px;
+    height: 24px;
+    left: 56px;
+    top: 333px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+.bak {
+    position: absolute;
+    left: 28px;
+    top: 378px;
+    font-size: 15px;
+}
+
+.baker {
+    position: absolute;
+    width: 149px;
+    height: 24px;
+    left: 56px;
+    top: 372px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+.cak {
+    position: absolute;
+    left: 28px;
+    top: 419px;
+    font-size: 15px;
+}
+
+.cake {
+    position: absolute;
+    width: 149px;
+    height: 24px;
+    left: 56px;
+    top: 413px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}

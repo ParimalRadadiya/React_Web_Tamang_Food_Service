@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.profset {
+    position: absolute;
+    left: 143px;
+    top: 43px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+.full28 {
+    position: absolute;
+    left: 23px;
+    top: 111px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #868686;
+
+}
+
+.in28 {
+    position: absolute;
+    height: 24px;
+    width: 299px;
+    left: 23px;
+    top: 132px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    outline: none;
+}
+
+.hr28 {
+    position: absolute;
+    width: 349px;
+    height: 1px;
+    top: 162px;
+    left: 22px;
+    opacity: 0.30;
+}
+
+.email28 {
+    position: absolute;
+    top: 7px;
+    position: absolute;
+    left: 23px;
+    top: 183px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #868686;
+
+}
+
+.in281 {
+    position: absolute;
+    height: 24px;
+    width: 299px;
+    left: 23px;
+    top: 211px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    outline: none;
+}
+
+.hr281 {
+    position: absolute;
+    width: 349px;
+    height: 1px;
+    top: 242px;
+    left: 22px;
+    opacity: 0.30;
+}
+
+.phone28 {
+    position: absolute;
+    top: 7px;
+    position: absolute;
+    left: 23px;
+    top: 265px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #868686;
+
+}
+
+.in282 {
+    position: absolute;
+    height: 24px;
+    left: 23px;
+    top: 293px;
+    width: 299px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    outline: none;
+}
+
+.hr282 {
+    position: absolute;
+    width: 349px;
+    height: 1px;
+    top: 325px;
+    left: 22px;
+    opacity: 0.30;
+}
+
+.pass28 {
+    position: absolute;
+    left: 23px;
+    top: 348px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #868686;
+
+}
+
+.in283 {
+    position: absolute;
+    height: 24px;
+    width: 299px;
+    left: 23px;
+    top: 372px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    outline: none;
+}
+
+#eyepass28 {
+    position: absolute;
+    top: 348px;
+    left: 312px;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.3;
+    cursor: pointer;
+
+}
+
+#eyehide28 {
+    position: absolute;
+    top: 348px;
+    left: 312px;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.hr283 {
+    position: absolute;
+    width: 349px;
+    height: 1px;
+    top: 407px;
+    left: 22px;
+    opacity: 0.30;
+}
+
+.passchang {
+    position: absolute;
+    left: 297px;
+    top: 372px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    color: #EEA734;
+    cursor: pointer;
+}
+
+.btn28 {
+    position: absolute;
+    top: 727px;
+    left: 23px;
+    background: #EEA734;
+    border-radius: 8px;
+    width: 335PX;
+    height: 48PX;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}

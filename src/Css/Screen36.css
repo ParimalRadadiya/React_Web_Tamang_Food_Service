@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.lessthn35 {
+    position: absolute;
+    left: 23px;
+    top: 47px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.bgscan {
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.597793);
+    z-index: -2;
+}
+
+.scard35 {
+    position: absolute;
+    width: 232px;
+    height: 18px;
+    left: 90px;
+    top: 201px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.14px;
+    color: #FFFFFF;
+}
+
+.scard351 {
+    position: absolute;
+    width: 312px;
+    height: 35px;
+    left: 32px;
+    top: 243px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+    opacity: 0.84;
+}
+
+.scanner {
+    position: absolute;
+    height: 134px;
+    width: 224px;
+    left: 76px;
+    top: 338px;
+    border: 1px solid green;
+    border-radius: 8px;
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+p {
+    position: absolute;
+    height: 17px;
+    left: 6%;
+    right: 0%;
+    top: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.28px;
+}
+
+.tamang {
+    position: absolute;
+    left: 75px;
+    top: 11.7%;
+}
+
+h1 {
+    position: absolute;
+    left: 85px;
+    right: 6.67%;
+    top: 135px;
+    bottom: 82.27%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #000000;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    position: absolute;
+    left: 2%;
+    right: 20.28%;
+    top: 10%;
+    bottom: 17.93%;
+    width: 100px;
+    height: 100px;
+}
+
+.img1 {
+    position: absolute;
+    left: 18px;
+    right: 21.74%;
+    top: 21.11%;
+    bottom: 43.95%;
+    width: 370px;
+    height: 359px;
+}
+
+.title {
+    width: 327px;
+    height: 360px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    left: 70px;
+    top: 26%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #010F07;
+    font-weight: 700;
+}
+
+.para p {
+    position: absolute;
+    width: 312px;
+    height: 36px;
+    left: 32px;
+    top: 577px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.para {
+    position: absolute;
+    top: 593px;
+    left: 64px;
+    text-align: center;
+}
+
+.img2 {
+    height: 15px;
+    width: 52px;
+    position: absolute;
+    left: 170px;
+    top: 650px;
+    cursor: pointer;
+}
+
+.btn3 {
+    position: absolute;
+    top: 691px;
+    left: 28px;
+    background: #EEA734;
+    border-radius: 8px;
+    width: 335PX;
+    height: 48PX;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media(max-width:375px) {
+    .img {
+        position: absolute;
+        left: 76%;
+    }
+
+    .logo {
+        left: 4%;
+    }
+
+    h1 {
+        left: 26%;
+    }
+
+    .tamang {
+        left: 22%;
+    }
+
+    .img1 {
+        left: 0.33%;
+    }
+
+    .title {
+        left: 56px;
+    }
+
+    .img2 {
+        left: 42%;
+    }
+
+    .btn3 {
+        left: 22px;
+    }
+}

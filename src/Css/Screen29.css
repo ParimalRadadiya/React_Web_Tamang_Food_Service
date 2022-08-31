@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.profset29 {
+    position: absolute;
+    left: 143px;
+    top: 43px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+#eyepass29 {
+    position: absolute;
+    top: 115px;
+    left: 324px;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#eyehide29 {
+    position: absolute;
+    top: 115px;
+    left: 324px;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.hr29 {
+    position: absolute;
+    width: 349px;
+    height: 1px;
+    top: 162px;
+    left: 22px;
+    opacity: 0.30;
+}
+
+#eyepass291 {
+    position: absolute;
+    top: 187px;
+    left: 324px;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#eyehide291 {
+    position: absolute;
+    top: 187px;
+    left: 324px;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.hr291 {
+    position: absolute;
+    width: 349px;
+    height: 1px;
+    top: 242px;
+    left: 22px;
+    opacity: 0.30;
+}
+
+#eyepass292 {
+    position: absolute;
+    top: 269px;
+    left: 324px;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+#eyehide292 {
+    position: absolute;
+    top: 269px;
+    left: 324px;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.hr292 {
+    position: absolute;
+    width: 349px;
+    height: 1px;
+    top: 326px;
+    left: 22px;
+    opacity: 0.30;
+}
+
+.btn29 {
+    position: absolute;
+    top: 727px;
+    left: 23px;
+    background: #EEA734;
+    border-radius: 8px;
+    width: 335PX;
+    height: 48PX;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}

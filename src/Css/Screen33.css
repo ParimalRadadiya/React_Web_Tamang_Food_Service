@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.sociala {
+    position: absolute;
+    left: 117px;
+    top: 42px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #010F07;
+}
+
+.sociala1 {
+    position: absolute;
+    width: 232px;
+    height: 18px;
+    left: 78px;
+    top: 168px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.14px;
+    color: #010F07;
+}
+
+.addyousc {
+    position: absolute;
+    width: 312px;
+    height: 35px;
+    left: 32px;
+    top: 210px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.face {
+    height: 28px;
+    width: 28px;
+    left: 36px;
+    top: 287px;
+    border-radius: 4px;
+}
+
+.facebook {
+    position: absolute;
+    left: 5%;
+    top: 34%;
+    background: #395998;
+    box-shadow: 0px 12px 24px rgba(57, 89, 152, 0.06);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.goog {
+    height: 28px;
+    width: 28px;
+    left: 36px;
+    top: 351px;
+    border-radius: 4px;
+}
+
+.google {
+    position: absolute;
+    left: 5%;
+    top: 42%;
+    background: #4285F4;
+    box-shadow: 0px 12px 24px rgba(57, 89, 152, 0.06);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

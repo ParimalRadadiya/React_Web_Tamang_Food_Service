@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.btn6 {
+    position: absolute;
+    top: 78px;
+    left: -1px;
+    background: #EEA734;
+    border-radius: 8px;
+    width: 335PX;
+    height: 48PX;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sn6 {
+    position: absolute;
+    left: 36.33%;
+    top: 40px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+}
+
+.title6 {
+    position: absolute;
+    width: 338px;
+    height: 25px;
+    left: 21px;
+    top: 100px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.22px;
+}
+
+.tag6 {
+    position: absolute;
+    width: 274px;
+    height: 35px;
+    left: 21px;
+    top: 147px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.form6 {
+    position: absolute;
+    height: 24px;
+    left: 6%;
+    right: 45.07%;
+    top: 212px;
+    font-family: 'Yu Gothic UI';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: #868686;
+}
+
+.emailforgot {
+    position: absolute;
+    left: 0%;
+    top: 1.54%;
+    font-family: 'Yu Gothic UI';
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #868686;
+}
+
+.ema {
+    position: absolute;
+    left: 1%;
+    top: -18.46%;
+    font-family: 'Yu Gothic UI';
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #868686;
+}
+
+.in6 {
+    position: absolute;
+    height: 24px;
+    width: 300px;
+    left: 0%;
+    top: 20px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.28px;
+    outline: none;
+}
+
+
+.hr6 {
+    position: absolute;
+    left: 0%;
+    right: -82%;
+    top: 224%;
+    /* opacity: 0.20; */
+}
+
+::placeholder {
+    font-weight: bold;
+    font-family: 'Yu Gothic UI';
+}
+
+
+@media(max-width:375px) {
+    .img {
+        position: absolute;
+        left: 76%;
+    }
+
+    .img1 {
+        left: 1.33%;
+    }
+
+    .btn {
+        left: -3px;
+    }
+}

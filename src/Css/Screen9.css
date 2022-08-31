@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=League+Gothic&family=Mulish&family=Poppins:wght@400;500&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+.btn9 {
+    position: absolute;
+    top: 223px;
+    left: -1px;
+    background: #EEA734;
+    border-radius: 8px;
+    width: 335PX;
+    height: 48PX;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sn9 {
+    position: absolute;
+    left: 13.33%;
+    top: 40px;
+    font-family: 'Yu Gothic UI';
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    text-align: center;
+}
+
+.title9 {
+    position: absolute;
+    width: 261px;
+    height: 25px;
+    left: 57px;
+    top: 112px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.14px;
+    color: #010F07;
+}
+
+.tag9 {
+    position: absolute;
+    width: 274px;
+    height: 35px;
+    left: 47px;
+    top: 151px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #868686;
+}
+
+.form9 {
+    position: absolute;
+    height: 24px;
+    left: 6%;
+    right: 45.07%;
+    top: 228px;
+    font-family: 'Yu Gothic UI';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: #868686;
+    text-transform: uppercase;
+}
+
+.phonenumberinp {
+    position: absolute;
+    left: 8px;
+    top: -15px;
+    font-family: 'Yu Gothic UI';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #868686;
+}
+
+.ph9 {
+    position: absolute;
+    left: 10px;
+}
+
+.form-control {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    font-family: 'Yu Gothic UI';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #868686;
+    mix-blend-mode: normal;
+    opacity: 0.64;
+}
+
+.form-control::placeholder {
+    position: absolute;
+    left: 55px;
+    top: 10px;
+}
+
+.intl-tel-input.allow-dropdown .selected-flag {
+    width: 46px;
+    height: 43px;
+}
+
+.hr9 {
+    position: absolute;
+    left: 0%;
+    right: -82%;
+    top: 157%;
+    opacity: 0.20;
+}
+
+.img29 {
+    width: 56px;
+    height: 31px;
+    position: absolute;
+    top: 28px;
+    left: 3px;
+}
+
+@media(max-width:375px) {
+    .img9 {
+        position: absolute;
+        left: 76%;
+    }
+
+    .btn9 {
+        left: -3px;
+    }
+}
+
+form {
+    width: 300px;
+}
+
+.intl-tel-input {
+    display: table-cell;
+}
+
+.intl-tel-input .selected-flag {
+    z-index: 4;
+}
+
+.intl-tel-input .country-list {
+    z-index: 5;
+}
+
+.input-group .intl-tel-input .form-control {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+}
